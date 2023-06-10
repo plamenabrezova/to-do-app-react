@@ -1,9 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import backgroundImg from '../../assets/background.jpg'
 import Header from "../Header/Header";
-import AddItem from "../AddItem/AddItem";
-import SearchItem from "../SearchItem/SearchItem";
+import TopSection from "../TopSection/TopSection";
 import Content from "../Content/Content";
 import Footer from "../Footer/Footer";
 
@@ -49,20 +47,19 @@ function App() {
 
   return (
     <div className="App container-fluid">
-      <Header title="To-Do List"/>
-      <div  className="form-control mb-4" style={{ width:"100%"}}>
-      <AddItem
+      <Header title="To-Do List" />
+      <TopSection
         newItem={newItem}
         setNewItem={setNewItem}
         handleSubmit={handleSubmit}
+        search={search}
+        setSearch={setSearch}
       />
-      <SearchItem search={search} setSearch={setSearch} />
-      </div>
-
       <Content
         items={items.filter((item) =>
           item.item.toLowerCase().includes(search.toLowerCase())
         )}
+        search={search}
         handleCheck={handleCheck}
         handleDelete={handleDelete}
       />

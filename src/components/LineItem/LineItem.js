@@ -24,7 +24,6 @@ function LineItem({ item, handleCheck, handleDelete }) {
           </label>
         </div>
       </div>
-
       <div className="p-1">
         <FaTrash
           role="button"
