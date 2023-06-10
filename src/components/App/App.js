@@ -1,15 +1,14 @@
 import { useState } from "react";
-import "./App.css";
 import Header from "../Header/Header";
 import TopSection from "../TopSection/TopSection";
 import Content from "../Content/Content";
 import Footer from "../Footer/Footer";
+import "./App.css";
 
 function App() {
   const [items, setItems] = useState(
     JSON.parse(localStorage.getItem("todoList"))
   );
-
   const [newItem, setNewItem] = useState("");
   const [search, setSearch] = useState("");
 
