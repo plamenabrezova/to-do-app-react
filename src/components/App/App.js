@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   const [items, setItems] = useState(
-    JSON.parse(localStorage.getItem("todoList"))
+    JSON.parse(localStorage.getItem("todoList")) || []
   );
   const [newItem, setNewItem] = useState("");
   const [search, setSearch] = useState("");
