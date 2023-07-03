@@ -18,7 +18,7 @@ body {
 .low-opacity-bg-image::after {
   content: '';
   position: absolute;
-    background-image: url("../../to-do-list/src/assets/background.jpg");
+  background-image: url("../src/assets/background.jpg");
   background-size: auto;
   background-repeat: no-repeat;
   inset: 0;
