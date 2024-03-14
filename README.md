@@ -8,14 +8,14 @@
 
 ---
 
-#### Demo
+#### Check the app out
 
-https://github.com/plamenamihaylova/to-do-app-react/assets/19728515/7ccfface-8b30-4ffb-aafc-f26f8b24de81
+https://plamenamihaylova.github.io/to-do-app-react
 
 ---
 
-#### Starting the project:
-In the project directory, you can run:
+#### Starting the project locally:
+In the project directory run:
 
 ### `npm start`
 
@@ -24,6 +24,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+#### Build the project for GitHub pages deploy
+In the project directory run:
+
+### `npm run pre-deploy`
+
+This command will create a build directory.
+
+#### Deploy on GitHub pages
+In the project directory run:
+
+### `npm run deploy`
 
 ---
 
