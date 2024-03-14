@@ -8,34 +8,32 @@
 
 ---
 
-#### Check the app out
-
-https://plamenamihaylova.github.io/to-do-app-react
+#### 🔗 [Check the app out](https://plamenamihaylova.github.io/to-do-app-react)
 
 ---
 
-#### Starting the project locally:
+### Starting the project locally:
 In the project directory run:
 
-### `npm start`
+#### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This command will run the app in the development mode on [http://localhost:3000](http://localhost:3000).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-#### Build the project for GitHub pages deploy
+### Build the project for GitHub pages deploy
 In the project directory run:
 
-### `npm run pre-deploy`
+#### `npm run pre-deploy`
 
 This command will create a build directory.
 
-#### Deploy on GitHub pages
+---
+
+### Deploy on GitHub pages
 In the project directory run:
 
-### `npm run deploy`
+#### `npm run deploy`
 
 ---
 
