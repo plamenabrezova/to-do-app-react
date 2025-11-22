@@ -8,7 +8,7 @@
 
 ---
 
-#### 🔗 [Check the app out](https://plamenamihaylova.github.io/to-do-app-react)
+#### 🔗 [Check the app out](https://plamenabrezova.github.io/to-do-app-react/)
 
 ---
 
