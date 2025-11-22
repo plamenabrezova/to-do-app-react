@@ -1,9 +1,6 @@
 ### TO-DO List Application 📝
 
----
-
-- Basic TO-DO React App.
-- Working with the local storage.
+- TO-DO React Application working with the localStorage.
 - Supports adding, deleting, and searching tasks.
 
 ---
